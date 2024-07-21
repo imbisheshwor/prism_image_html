@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prisma Advertisement</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prisma Advertisement</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="landing-page">
-        <div class="pentagon-container">
-            <div class="pentagon">
-                <div class="grid-container">
-                    <div class="grid-item" style="background-image: url('images/1.png');"></div>
-                    <div class="grid-item" style="background-image: url('images/2.JPG');"></div>
-                    <div class="grid-item" style="background-image: url('images/3.png');"></div>
-                    <div class="grid-item" style="background-image: url('images/4.png');"></div>
-                    <div class="grid-item" style="background-image: url('images/5.JPG');"></div>
-                    <div class="grid-item" style="background-image: url('images/6.JPG');"></div>
-                    <div class="grid-item" style="background-image: url('images/7.jpg');"></div>
-                    <div class="grid-item" style="background-image: url('images/8.jpg');"></div>
-                    <div class="grid-item" style="background-image: url('images/9.jpg');"></div>
-                    <div class="grid-item" style="background-image: url('images/10.jpg');"></div>
-                    <div class="grid-item" style="background-image: url('images/11.jpg');"></div>
-                    <div class="grid-item" style="background-image: url('images/12.jpg');"></div>
-                </div>
-            </div>
+  <div class="landing-page">
+    <div class="pentagon-container">
+      <div class="pentagon">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('images/1.png');"></div>
+            <div class="swiper-slide" style="background-image: url('images/2.JPG');"></div>
+            <div class="swiper-slide" style="background-image: url('images/3.png');"></div>
+            <div class="swiper-slide" style="background-image: url('images/4.png');"></div>
+            <div class="swiper-slide" style="background-image: url('images/5.JPG');"></div>
+            <div class="swiper-slide" style="background-image: url('images/6.JPG');"></div>
+            <div class="swiper-slide" style="background-image: url('images/7.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('images/8.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('images/9.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('images/10.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('images/11.jpg');"></div>
+            <div class="swiper-slide" style="background-image: url('images/12.jpg');"></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="text-container">
-            <h1>Prisma</h1>
-            <h2>ADVERTISEMENT</h2>
-        </div>
+      </div>
     </div>
+    <div class="text-container">
+      <h1>Prisma</h1>
+      <h2>ADVERTISEMENT</h2>
+    </div>
+  </div>
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
 </body>
-
 </html>
